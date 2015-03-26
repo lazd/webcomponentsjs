@@ -7,7 +7,7 @@
  * Code distributed by Google as part of the polymer project is also
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
-// @version 0.6.0-a718c7c
+// @version 0.6.0-6acf57f
 window.WebComponents = window.WebComponents || {};
 
 (function(scope) {
@@ -989,10 +989,3 @@ CustomElements.addModule(function(scope) {
     window.addEventListener(loadEvent, bootstrap);
   }
 })(window.CustomElements);
-
-(function(scope) {
-  var style = document.createElement("style");
-  style.textContent = "" + "body {" + "transition: opacity ease-in 0.2s;" + " } \n" + "body[unresolved] {" + "opacity: 0; display: block; overflow: hidden; position: relative;" + " } \n";
-  var head = document.querySelector("head");
-  head.insertBefore(style, head.firstChild);
-})(window.WebComponents);
