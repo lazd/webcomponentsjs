@@ -49,9 +49,7 @@
   var modules = [
     'WeakMap/WeakMap.js',
     'MutationObserver/MutationObserver.js',
-    'CustomElements/CustomElements.js',
-    // these scripts are loaded here due to polyfill timing issues
-    'WebComponents/unresolved.js'
+    'CustomElements/CustomElements.js'
   ];
 
   var src = script.getAttribute('src');
