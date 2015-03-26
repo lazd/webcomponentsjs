@@ -124,6 +124,7 @@ gulp.task('copy-bower', function() {
 
 defineBuildTask('webcomponents', './src/WebComponents/build.json');
 defineBuildTask('webcomponents-lite', './src/WebComponents/build-lite.json');
+defineBuildTask('webcomponents-coral', './src/WebComponents/build-coral.json');
 defineBuildTask('CustomElements');
 defineBuildTask('HTMLImports');
 defineBuildTask('ShadowDOM');

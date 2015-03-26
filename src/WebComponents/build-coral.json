@@ -1,0 +1,7 @@
+[
+  "build/boot.js",
+  "../WeakMap/WeakMap.js",
+  "../MutationObserver/MutationObserver.js",
+  "../CustomElements/build.json",
+  "unresolved.js"
+]
